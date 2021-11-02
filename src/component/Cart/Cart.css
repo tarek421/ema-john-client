@@ -1,0 +1,45 @@
+.cart{
+   margin-left: 5px;
+}
+.cart p{
+   text-align:center;
+   font-size: 18px;
+}
+.cart h3{
+   font-size: 20px;
+   text-align: center;
+}
+tr{
+   line-height:1;
+}
+.cart table {
+   font-size: 13px;
+   font-weight: 500;
+   width: 95%;
+}
+.total-row {
+   color: #b12704;
+   font-size: 17px;
+   font-weight: 700;
+   line-height: 22px;
+   border-top: 1px solid gray;
+   margin-top: 5px;
+}.total-row {
+   color: #b12704;
+   font-size: 17px;
+   font-weight: 700;
+   line-height: 22px;
+   border-top: 1px solid gray;
+   margin-top: 5px;
+}
+.rivew-button {
+   background: #f0c14b;
+   width: 200px;
+   height: 26px;
+   border-color: #a88734 #9c7e31 #846a29;
+   cursor: pointer;
+   border-radius: 5px;
+   border-style: solid;
+   border-width: 1px;
+   margin-left: 10px;
+}

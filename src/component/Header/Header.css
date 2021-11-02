@@ -1,0 +1,35 @@
+.header{
+     text-align: center;
+}
+.header img{
+     height: 80px;
+}
+.header nav{
+     background: black;
+     line-height: 40px;
+}
+.header nav a{
+     color: white;
+     margin-left: 20px;
+     text-decoration: none;
+     padding: 7px;
+}
+.header nav a:hover{
+     background: gray;
+}
+.search-box{
+     background: rgba(32, 30, 30, 0.89);
+     line-height: 20px;
+     padding: 15px 0;
+}
+.search-box input {
+     width: 1000px;
+     height: 25px;
+     margin: 0 10px;
+     padding: 0 34px;
+ }
+
+ .cart-icon {
+      color: #fff;
+      font-size: 20px;
+ }

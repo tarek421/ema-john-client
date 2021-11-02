@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { getDatabaseCart, processOrder, removeFromDatabaseCart } from '../../utilities/databaseManager';
+import { getDatabaseCart, removeFromDatabaseCart } from '../../utilities/databaseManager';
 import Cart from '../Cart/Cart';
 import fakeData from './../../fakeData/index';
 import RivewItem from './../RivewItem/RivewItem';
@@ -8,7 +8,7 @@ import { useHistory } from 'react-router';
 
 const Rivew = () => {
    const [cart, setCart] = useState([]);
-   const [orderPlaced, setOrderPlaced] = useState(false);
+   const [orderPlaced] = useState(false);
 
    let history = useHistory();
 

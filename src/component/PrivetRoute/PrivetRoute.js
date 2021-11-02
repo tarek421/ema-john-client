@@ -3,7 +3,7 @@ import { Redirect, Route } from "react-router";
 import { userContext } from "../../App";
 
 const PrivetRoute = ({ children, ...rest }) => {
-  const [LoggedInUser, setLoggedInUser] = useContext(userContext);
+  const [LoggedInUser] = useContext(userContext);
   return (
     <Route
       {...rest}

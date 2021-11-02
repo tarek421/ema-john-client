@@ -9,6 +9,7 @@ import {
 } from "firebase/auth";
 
 const app = initializeApp(firebaseConfig);
+console.log(app)
 
 export const handleSignInWithGoogle = () => {
   const GoogleProvider = new GoogleAuthProvider();

@@ -17,8 +17,7 @@ const Cart = (props) => {
    let Price = 0;
    for (let i = 0; i < cart.length; i++) {
       const product = cart[i];
-      Price = formatNumber(Price + product.price * product.quantity);
-      debugger;
+      Price = formatNumber(Price + product.price * (product.quantity || 1));
    }
 
    let shipping = 0;

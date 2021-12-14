@@ -12,7 +12,7 @@ import { Link } from "react-router-dom";
 
 const Shop = () => {
   useEffect(() => {
-    fetch("http://localhost:5000/products")
+    fetch("http://fast-cove-85764.herokuapp.com/products")
       .then((res) => res.json())
       .then((res) => {
         const result = res.slice(0, 10);
@@ -27,7 +27,7 @@ const Shop = () => {
     const saveToCart = getDatabaseCart();
     const productKey = Object.keys(saveToCart);
 
-    fetch('http://localhost:5000/productsByKeys',{
+    fetch('http://fast-cove-85764.herokuapp.com/productsByKeys',{
       method: 'POST',
       headers:{
         'Content-Type':'application/json'

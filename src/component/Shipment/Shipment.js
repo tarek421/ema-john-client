@@ -15,7 +15,7 @@ const Shipment = () => {
    const onSubmit = data => {
     const saveToCart = getDatabaseCart();
     const orderDetail = {...LoggedInUser, product: saveToCart, shipment: data, orderTime: new Date() };
-    fetch('http://localhost:5000/addOrder',{
+    fetch('http://fast-cove-85764.herokuapp.com/addOrder',{
       method: 'POST',
       headers: { 
         'Content-Type':'application/json'
